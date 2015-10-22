@@ -1,0 +1,24 @@
+{
+  "name": "workplayrelax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "express": "^4.1.2",
+    "express-jwt": "~0.2.1",
+    "feed": "^0.2.6",
+    "http-server": "^0.6.1",
+    "json": "0.0.14",
+    "jsonwebtoken": "^0.4.1",
+    "mongoose": "^3.8.35",
+    "morgan": "^1.0.1",
+    "redis": "~0.10.1"
+  }
+}

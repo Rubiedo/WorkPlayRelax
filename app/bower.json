@@ -1,0 +1,25 @@
+{
+  "name": "workplayrelax",
+  "version": "0.0.0",
+  "authors": [
+    "MastaWu"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "master",
+    "angular": "~1.4.4",
+    "angular-ui-router": "~0.2.15",
+    "angular-animate": "~1.4.4",
+    "angular-aria": "~1.4.4"
+  }
+}

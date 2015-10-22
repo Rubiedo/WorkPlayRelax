@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/app/">
+    <meta charset="UTF-8">
+    <title>Work Play Relax</title>
+
+    <!--Script to start angular.js-->
+    <script src="../app/bower_components/angular/angular.js"></script>
+    <script src="../app/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!--script to add Material css and personal css files-->
+    <link rel="stylesheet" href="../app/bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="../app/css/main.css" />
+</head>
+<body ng-app="workplayrelax">
+    <md-toolbar layout="row" layout-align="space-between center" md-scroll-shrink>
+        <!--TODO: remake toolbar/navbar-->
+        <div class="md-toolbar-tools">
+            <h1>WORK. PLAY. RELAX.</h1>
+        </div>
+        <md-button aria-label="HOME">HOME</md-button>
+        <md-button aria-label="APPS">APPS</md-button>
+        <md-button aria-label="CONTACT">CONTACT</md-button>
+    </md-toolbar>
+
+    <!--Start content, should probably load pages dynamically-->
+
+    <div ui-view></div>
+
+
+    <!-- Should move this to its own view-->
+
+    <md-toolbar layout="row" flex>
+        <div layout="row" layout-align="center center" flex>
+            <h1>Footer</h1>
+        </div>
+    </md-toolbar>
+
+    <!--load js files-->
+
+    <script src="../app/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="../app/bower_components/angular-aria/angular-aria.min.js"></script>
+    <script type="text/javascript" src="../app/bower_components/angular-material/angular-material.min.js"></script>
+
+    <script src="../app/js/app.js"></script>
+</body>
+</html>
